@@ -1,0 +1,127 @@
+.square{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: lightblue;
+  }
+  
+  .bottom-right {
+    width: 0;
+    height: 0;
+    border-top-width: 50px;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-right-width: 50px;
+    border-right-style: solid;
+    border-right-color: red;
+    right:0;
+    bottom:0;
+    position:absolute;
+    margin:10px;
+  }
+  
+  .bottom-left {
+    width: 0;
+    height: 0;
+    border-top-width: 50px;
+    border-top-style: solid; 
+    border-top-color: transparent;
+    border-left-width: 50px;
+    border-left-style: solid;
+    border-left-color: red; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:10px;
+  }
+  
+  
+  .top-left {
+    width: 0;
+    height: 0;
+    border-bottom-width: 50px;
+    border-bottom-style: solid; 
+    border-bottom-color: transparent;
+    border-left-width: 50px;
+    border-left-style: solid;
+    border-left-color: red; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin:10px;
+  }
+  
+  .top-right{
+    width:0;
+    height:0;
+    border-bottom-width:50px;
+    border-bottom-style:solid;
+    border-bottom-color:transparent;
+    border-right-width:50px;
+    border-right-style:solid;
+    border-right-color:red;
+    position:absolute;
+    right:0;
+    top:0;
+    margin:10px;
+    
+  }
+  
+  .left-center {
+    width: 50px; 
+    height: 50px;
+    background-color: red;
+    border-radius: 50px 0 0 0; 
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;
+  }
+  
+  .right-center {
+    width: 50px; 
+    height: 50px;
+    background-color: red;
+    border-radius: 0 0 50px 0; 
+    display: flex;
+   
+  }
+  
+  .mainnone{
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .none{
+    
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  .left-circle{
+  
+    width:100px;
+    height:50px
+   
+   
+  }
+  
+  .right-circle{
+  
+    width:100px;
+    height:50px;
+     display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+  
+  }
+  
