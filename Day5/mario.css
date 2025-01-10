@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+.mainmario{
+    width:100vw;
+    height:100vh;
+    background: url('./images/vecteezy_8-bit-retro-game-background_20323090.jpg');
+    background-size: cover; 
+    background-position: center;  
+    position: relative;
+   
+}
+
+.mariopng{
+    margin-left: 0;
+    width:200px;
+    height:200px;
+    position:absolute;
+    bottom: 100px;
+}
