@@ -32,6 +32,7 @@ const promise3=new Promise((resolve,reject)=>{
 
 Promise.all([promise1,promise2,promise3])
     .then(results=>console.log(results))
+    
 console.log("race");
 
 Promise.race([promise1,promise2,promise3])
